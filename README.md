@@ -10,14 +10,14 @@ Welcome to my personal dotfiles! These are the configs I use every day to keep m
 ⚡️I like a terminal that feels responsive and friendly. These configs help keep things tidy while still being powerful enough for daily development. 
 
 ## How to Use
+2. Install git, zsh and tmux
+   ```bash
+   sudo apt upgrade -y
+   sudo apt intall git zsh tmux
+   ```
 1. Clone this repo:
    ```bash
    git clone https://github.com/FrostyLabs/dotfiles.git
-   ```
-2. Install zsh and tmux
-   ```bash
-   sudo apt upgrade -y
-   sudo apt intall zsh tmux
    ```
 3. Copy or symlink the configs you want:
    ```bash
