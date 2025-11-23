@@ -31,6 +31,6 @@ Welcome to my personal dotfiles! These are the configs I use every day to keep m
    ```
 
 ## Extra Notes
-Feel free to explore, borrow, or improve anything here. I keep things simple on purpose—but simple doesn’t have to be boring! 😄
+Feel free to explore, borrow, or improve anything here. I keep things simple, but simple doesn’t have to be boring! 😄
 
 Enjoy and happy hacking! 🧊
