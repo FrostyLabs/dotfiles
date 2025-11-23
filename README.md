@@ -14,12 +14,17 @@ Welcome to my personal dotfiles! These are the configs I use every day to keep m
    ```bash
    git clone https://github.com/FrostyLabs/dotfiles.git
    ```
-2. Copy or symlink the configs you want:
+2. Install zsh and tmux
+   ```bash
+   sudo apt upgrade -y
+   sudo apt intall zsh tmux
+   ```
+3. Copy or symlink the configs you want:
    ```bash
    ln -s ~/dotfiles/.zshrc ~/.zshrc
    ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
    ```
-3. Restart your terminal or reload configs:
+4. Restart your terminal or reload configs:
    ```bash
    source ~/.zshrc
    tmux source-file ~/.tmux.conf
