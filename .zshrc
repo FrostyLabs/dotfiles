@@ -87,3 +87,5 @@ bindkey '^e' edit-command-line
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 
+# apt update alias to show upgradable packages
+alias apt-update='/usr/bin/sudo /usr/bin/apt update && /usr/bin/apt list --upgradable'
